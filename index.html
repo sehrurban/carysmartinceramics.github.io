@@ -2,6 +2,7 @@
 <html lang="en-us">
 	<head>
 		<style>
+			/*FOR ANYTHING OTHER THAN MOBILE*/
 			ul {
 			margin: auto;
 			}
@@ -12,17 +13,16 @@
     			text-decoration: none;
     			color: black;		
 			}
+			.InstagramFeed {
+				padding: 20px 75px;
+			}
 			
-			@media only screen and (max-width: 768px) {
+			@media only screen and (max-device-width: 480px) {
+				/*FOR MOBILE DEVICES*/
 				.InstagramFeed {
 					padding: 20px 0px;
+					width: 100%;
 				}
-			}
-			
-			@media only screen and (min-width: 768px) {
-			.InstagramFeed {
-				padding: 20px 175px;
-			}
 			}
 		</style>
 		
