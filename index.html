@@ -5,16 +5,23 @@
 			/*FOR ANYTHING OTHER THAN MOBILE*/
 			ul {
 			margin: auto;
+			padding: 10px 0px;
 			}
 			li {
 			display: inline;		
 			}
 			.links {
     			text-decoration: none;
-    			color: black;		
+    			color: black;
+    			padding: 0px 10px;
 			}
 			.InstagramFeed {
-				padding: 20px 75px;
+				padding: 5px 75px;
+			}
+			#Name {
+				font-size: 1.25em;
+				position: relative;
+				margin-left: 20px;
 			}
 			
 			@media only screen and (max-device-width: 480px) {
@@ -22,7 +29,12 @@
 				.InstagramFeed {
 					padding: 10px 0px;
 					width: 100%;
-					z-index: 1000;
+				}
+			}
+			@media only screen and (max-width: 480px) {
+				/*FOR MOBILE DEVICES*/
+				.InstagramFeed {
+					padding: 0px 75px;
 				}
 			}
 		</style>
@@ -30,8 +42,8 @@
 		<title>Carys Martin Ceramics</title>
 	</head>
 	<body>
-		<h1>Carys Martin Ceramics</h1>
 		<ul>
+			<li id='Name'>Carys Martin Ceramics</li>
 			<li><a class='links' href=''>Home</a></li>
 			<li><a class='links' href=''>About</a></li>
 			<li><a class='links' href=''>Contact</a></li>
