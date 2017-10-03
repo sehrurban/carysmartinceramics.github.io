@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en-us">
-	<link href="css" type="text/css" rel="stylesheet">
+	
 	<head>
 		<style>
-			/*FOR ANYTHING OTHER THAN MOBILE*/
+			/*FOR ANYTHING MUTUAL*/
 			ul {
 			margin: auto;
 			padding: 10px 0px;
@@ -11,35 +11,86 @@
 			li {
 			display: inline;		
 			}
-			.links {
-    			text-decoration: none;
-    			color: black;
-    			padding: 0px 10px;
-			}
+			
 			#footer {
 				text-align: center;
 				opacity: 0.25;
 			}
-			.InstagramFeed {
-				padding: 5px 75px;
-			}
+			
 			#Name {
 				font-size: 1.25em;
-				position: relative;
-				margin-left: 20px;
+				padding: 0px 0px;
+			}
+			#Navigator {
+				font-family: Arial;
+				font-weight: bold;
 			}
 			
-			@media only screen and (max-device-width: 480px) {
-				/*FOR MOBILE DEVICES*/
-				.InstagramFeed {
-					padding: 10px 0px;
-					width: 100%;
-				}
-			}
 			@media only screen and (max-width: 480px) {
 				/*FOR MOBILE DEVICES*/
-				.InstagramFeed {
-					padding: 0px 75px;
+				.InstagramFeedPC {
+					display: none;
+				}
+				.InstagramFeedMobile {
+					padding: 25px 0px 0px 0px;
+				}
+				#Name {
+					position: fixed;
+					right: 0;
+   					left: 0;
+   					margin-right: auto;
+    				margin-left: auto;
+    				top: 50%;
+    			}
+    			#whiteimg {
+    				width: 85%;
+    				-webkit-filter: drop-shadow(8px 8px 10px #009dac); /* Safari */
+    filter: drop-shadow(8px 8px 10px #009dac);
+}
+    			}
+				#Navigator {
+					position: absolute;
+					text-align: center;
+					right: 0;
+   					left: 0;
+   					margin-right: auto;
+    				margin-left: auto;
+    				
+				}
+				.container > div {
+    		display: inline-block;
+    		display: -moz-inline-box;
+   			*display: inline; /* For IE7 */
+    		zoom: 1; /* Trigger hasLayout */
+    		width: 33%;
+    		text-align: center;
+    		text-decoration: none;
+    		color: #009dac;
+    		font: Helvetica;
+    		}
+				#footer {
+					display: none;
+				}
+				#blueimg {
+					display: none;
+				}
+			}
+			@media only screen and (min-width: 480px) {
+				/*FOR PC DEVICES*/
+				.InstagramFeedMobile {
+					display: none;
+				}
+				.InstagramFeedPC {
+				padding: 5px 75px;
+			}
+				#Name {
+				position: relative;
+				}
+				#blueimg {
+					width: 150px;
+				}
+				#whiteimg {
+					display: none;
 				}
 			}
 		</style>
@@ -47,20 +98,30 @@
 		<title>Carys Martin Ceramics</title>
 	</head>
 	<body>
-		<ul>
-			<li id='Name'>Carys Martin Ceramics</li>
-			<li><a class='links' href=''>Home</a></li>
-			<li><a class='links' href=''>About</a></li>
-			<li><a class='links' href=''>Contact</a></li>
-		</ul>
-		<!-- SnapWidget - For Current Instagram Feed -->
-		<div class='InstagramFeed'>
+		<div style="text-align: center;" id='Name'>
+				<img id='blueimg' src="Web/CarysMartinCeramics_Logo_RGB.png" alt="Carys Martin Ceramics Logo" align='middle'>
+		</div>
+		<div style="text-align: center;" id='Name'>
+				<img id='whiteimg' src="Web/CarysMartinCeramics_Logo_REV.png" alt="Carys Martin Ceramics Logo" align='middle'>
+		</div>
+			<div id='Navigator' class="container">
+  			<div>Home</div>
+  			<div>About</div>
+  			<div>Contact</div>
+		</div>
+		<!-- SnapWidget - For Current Instagram Feed |PC| -->
+		<div class='InstagramFeedPC'>
 			<script src="https://snapwidget.com/js/snapwidget.js"></script>
 			<iframe src="https://snapwidget.com/embed/397789" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%; ">
 			</iframe>
 		</div>	
+		<!-- SnapWidget - For Current Instagram Feed |Mobile| -->
+		<div class='InstagramFeedMobile'>
+			<script src="https://snapwidget.com/js/snapwidget.js"></script>
+			<iframe src="https://snapwidget.com/embed/code/269174" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%; "></iframe>
+		</div>
 	</body>
 	<footer>
-      <p id='footer'>Carys Ceramics Copyright &copy; 2017</p>
+      <p id='footer'>Carys Martin Ceramics</p>
     </footer>
 </html>
