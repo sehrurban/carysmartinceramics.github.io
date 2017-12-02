@@ -1,100 +1,38 @@
 <!DOCTYPE html>
-<html lang="en-us">
-	
-	<head>
-		<style>
-			/*FOR ANYTHING MUTUAL*/
-			#Name {
-				font-size: 1.25em;
-				padding: 0px 0px;
-			}
-			#Navigator {
-				font-family: Arial;
-				font-weight: bold;
-			}
-			.container > div {
-    		display: inline-block;
-    		display: -moz-inline-box;
-   			*display: inline; /* For IE7 */
-    		zoom: 1; /* Trigger hasLayout */
-    		width: 33%;
-    		text-align: center;
-    		text-decoration: none;
-    		color: #009dac;
-    		font: Helvetica;
-    		}
-			@media only screen and (max-width: 480px) {
-				/*FOR MOBILE DEVICES*/
-				.InstagramFeedPC {
-					display: none;
-				}
-				.InstagramFeedMobile {
-					padding: 25px 0px 0px 0px;
-				}
-				#Name {
-					position: fixed;
-					right: 0;
-   					left: 0;
-   					margin-right: auto;
-    				margin-left: auto;
-    				top: 50%;
-    			}
-    			#img {
-    				width: 85%;
-    				-webkit-filter: drop-shadow(8px 8px 10px #009dac); /* Safari */
-    filter: drop-shadow(8px 8px 10px #009dac);
-    			}
-				#Navigator {
-					position: absolute;
-					text-align: center;
-					right: 0;
-   					left: 0;
-   					margin-right: auto;
-    				margin-left: auto;
-    				
-				}
-				#footer {
-					display: none;
-				}
-			}
-			@media only screen and (min-width: 480px) {
-				/*FOR PC DEVICES*/
-				.InstagramFeedMobile {
-					display: none;
-				}
-				.InstagramFeedPC {
-				padding: 5px 75px;
-			}
-				#Name {
-				position: relative;
-				}
-				#img {
-				width: 150px;
-				}
-			}
-		</style>
-		
-		<title>Carys Martin Ceramics</title>
-	</head>
-	<body>
-		<div style="text-align: center;" id='Name'>
-				<img id='img' src="Web/CarysMartinCeramics_Logo_RGB.png" alt="Carys Martin Ceramics Logo" align='middle'>
-		</div>
-			<div id='Navigator' class="container">
-  			<div>Home</div>
-  			<div>About</div>
-  			<div>Contact</div>
-		</div>
-		<!-- SnapWidget - For Current Instagram Feed |PC| -->
-		<div class='InstagramFeedPC'>
-			<script src="https://snapwidget.com/js/snapwidget.js"></script>
-			<iframe src="https://snapwidget.com/embed/397789" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%; ">
-			</iframe>
-		</div>	
-		<!-- SnapWidget - For Current Instagram Feed |Mobile| -->
-		<div class='InstagramFeedMobile'>
-			<script src="https://snapwidget.com/js/snapwidget.js"></script>
-			<iframe src="https://snapwidget.com/embed/code/269174" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%; "></iframe>
-		</div>
-	</body>
+<html>
+    <head>
+        <style>
+            html, body {height: 100%; width: 100%;}
+body {margin:0;padding:0; overflow-x:hidden; }
+
+#fillScreen {
+    position:relative;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    background:white;
+   
+}
+#center {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    position: absolute;
+    top: 12.5%; left: 0; bottom: 0; right: 0;
+}
+        </style>
+        <title>Carys Martin Ceramics</title>
+    </head>
+    <body>
+        <div id="fillScreen">
+            <div id='center'>
+            <script src="https://snapwidget.com/js/snapwidget.js"></script>
+            <iframe src="https://snapwidget.com/embed/477143" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%; height:100%;"></iframe>
+            </div>
+        </div>
+<div id="makeItScroll">Content Filler</div>
+           
+        
+    </body>
 </html>
