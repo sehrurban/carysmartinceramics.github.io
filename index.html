@@ -5,7 +5,7 @@
             html, body {height: 100%; width: 100%;}
 body {margin:0;padding:0; overflow-x:hidden; }
 
-            #fillScreen {
+            .fillScreen {
     position:relative;
     top:0;
     left:0;
@@ -13,6 +13,14 @@ body {margin:0;padding:0; overflow-x:hidden; }
     width:100%;
     background:white;   
 }
+            .halfScreen {
+    position:relative;
+    top:0;
+    left:0;
+    height:50%;
+    width:100%;
+    background:white;
+            }
             #logo {
     width: 100%;
     padding-top: 5px;
@@ -56,7 +64,7 @@ body {margin:0;padding:0; overflow-x:hidden; }
             <div style='position:sticky; background:white; padding-left:4%;'>
                 <ul id='navbar' style="text-align: center;">
                     <li>Home</li>
-                    <li>About</li>
+                    <li><a href='About'>About</a></li>
                     <li>1 cup = 1 tree</li>
                     <li>Recent Work</li>
                     <li>Stock Lists</li>
@@ -79,36 +87,29 @@ body {margin:0;padding:0; overflow-x:hidden; }
         </div>
         
        
-        <div>
+        <div class="fillScreen">
            Etsy Mini       
-             <ul style="text-align: center;">
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>1 cup = 1 tree</li>
-                    <li>Recent Work</li>
-                    <li>Stock Lists</li>
-                    <li>Work with me</li>
-                    <li>Contact</li>
-                </ul>
-            <ul style="text-align: center;">
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>1 cup = 1 tree</li>
-                    <li>Recent Work</li>
-                    <li>Stock Lists</li>
-                    <li>Work with me</li>
-                    <li>Contact</li>
-                </ul>
-            <ul style="text-align: center;">
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>1 cup = 1 tree</li>
-                    <li>Recent Work</li>
-                    <li>Stock Lists</li>
-                    <li>Work with me</li>
-                    <li>Contact</li>
-                </ul>
         </div>
-        
+        <div id='About'; class="fillScreen">
+            About       
+        </div>
+        <div class="fillScreen">
+           1 cup = 1 tree       
+        </div>
+        <div class="fillScreen">
+           Recent Work     
+        </div>
+        <div class="fillScreen">
+           Recent Work      
+        </div>
+        <div class="fillScreen">
+           Stock Lists       
+        </div>
+        <div class="halfScreen">
+           Work with me       
+        </div>
+        <div class="halfScreen">
+           Contact       
+        </div>        
     </body>
 </html>
