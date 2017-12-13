@@ -12,20 +12,22 @@ body {margin:0;padding:0; overflow-x:hidden; }
     height:102.5%;
     width:100%;
     background:white;
+    margin: 0;
     
 }
-            .halfScreen {
+            .twothirdsScreen {
     position:relative;
     top:0;
     left:0;
-    height:102.5%;
-    width:50%;
+    height:70%;
+    width:100%;
     background:white;
             }
             #logo {
     width: 100%;
     padding-top: 1%;
     padding-bottom: 1%;
+    width: 20%; display: block; margin: 0 auto;
             }
             navbar {
     width: 100%;
@@ -50,6 +52,7 @@ body {margin:0;padding:0; overflow-x:hidden; }
     margin: 0 auto;
     
             }
+            
             h1 {
                 font-size: 150%;
     color: #009dac;
@@ -74,14 +77,19 @@ body {margin:0;padding:0; overflow-x:hidden; }
                 width: 30%;
                 }
             }
+    @media (min-width:480px)  { /* smartphones, Android phones, landscape iPhone */ }
+    @media (min-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ }
+    @media (min-width:801px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+    @media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
+    @media (min-width:1281px) { /* hi-res laptops and desktops */ }
         </style>
         <title>Carys Martin Ceramics</title>
     </head>
     <body>
-        <div style='height: 200%; overflow:visible;'>            
-                 <img  id='logo' src='https://github.com/sehrurban/sehrurban.github.io/blob/master/CarysMartinCeramics_Final%20Files/CarysMartinCeramics_Final%20Files/Logos/Web/CarysMartinCeramics_Logo_RGB.png?raw=true' style="width: 20%; display: block; margin: 0 auto;"/>
+        <div class="fillScreen">            
+                 <img  id='logo' src='C:/Users/jamie/OneDrive/Documents/Carys Martin Ceramics/CarysMartinCeramics_Final Files/CarysMartinCeramics_Final Files/Logos/Web/CarysMartinCeramics_Logo_RGB.png' />
             
-            <div id='navbar' style='margin-top: 5px; margin-bottom: 10px;'>
+            <div id='navbar' style='margin-top: 5px; margin-bottom: 30px;'>
                 <ul style="text-align: center; vertical-align: middle; padding-left: 5%;">
                     <li><a href='#home'>Home</a></li>
                     <li><a href='#about'>About</a></li>
@@ -99,20 +107,29 @@ body {margin:0;padding:0; overflow-x:hidden; }
         </div>
        
         <div class="fillScreen" >
-            <h1><a name='recentwork'>Etsy Store</a></h1>       
+            <h1><a name='recentwork'>Etsy Store</a></h1>  
+            <script src='http://www.craftcult.com/js/shwi.js?c=30128&u=108844535&a=1&f=0&d=0&t=7'></script>
         </div>
-        <div class="halfScreen" style='float:right;'>
+        <div class="twothirdsScreen">
             <h1><a name='about'>About</a></h1>       
         </div>
-        <div class="halfScreen" style='background-color: #009dac;'>
+        <div class="twothirdsScreen" style='background-color: #009dac;'>
             <h1 style='color: white;'><a name='1cup'>1 cup = 1 tree</a></h1>      
         </div>
-        <div class="halfScreen" style='float:right; background-color: #009dac;'>
-            <h1 style='color: white;'><a name='contact'>Contact</a></h1>       
-        </div>       
-        <div class="halfScreen">
+        <div class="twothirdsScreen">
             <h1><a name='workwithme'>Work with me</a></h1>       
         </div>
+        <div class="twothirdsScreen" style='background-color: #009dac;'>
+            <h1 style='color: white;'><a name='contact'>Contact</a></h1>
+            
+            <script>
+  (function (w,i,d,g,e,t,s) {w[d] = w[d]||[];t= i.createElement(g);
+    t.async=1;t.src=e;s=i.getElementsByTagName(g)[0];s.parentNode.insertBefore(t, s);
+  })(window, document, '_gscq','script','//widgets.getsitecontrol.com/116516/script.js');
+</script>
+            
+        </div>       
+        
          
     </body>
 </html>
