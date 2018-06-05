@@ -9,14 +9,9 @@ body {margin:0;padding:0; overflow-x:; }
     position:relative;
     top:0;
     left:0;
-    
     background:white;
     margin: 0;
     z-index: -1;
-   
-    
-            
-    
             }
            
 
@@ -24,27 +19,24 @@ body {margin:0;padding:0; overflow-x:; }
     padding-top: 1%;
     padding-bottom: 2%;
     width: 35%; display: block; margin: 0 auto;
-    position: ;
             }
             #Insta {
     width: 95%;
     height:100%;
-    top: 0; left: 0; bottom: 1; right: 0;
+    top: 0; left: 0; bottom: 0; right: 0;
     position: inherit;
     margin: 0 auto;
     z-index: 0;
             }    
-          h1 {
-                font-size: 3vw;
+            h1 {
+                font-size: 2vw;
     color: #009cab;
     font-family: sans-serif;
     font-variant:small-caps;
     font-weight: bolder;
     text-align: center;
     padding-top: 5px;
-    
             }
-            
             p {
                 font-size: 1.5vw;
                 padding-left: 15%;
@@ -67,17 +59,20 @@ body {margin:0;padding:0; overflow-x:; }
            
             
             .hover{
-                z-index: 1;
-            /**    position:absolute; **/
+                z-index: 2;
                 background-color: white ;
                 box-shadow: 5px -2.5px 5px #888888;
+                position: static; 
+            }
+            
+            .Image {
+                z-index: 1;
                 position: static;
-                
-                
+                background-color: white;
             }
             
             .below {
-                z-index: 1;
+                z-index: 2;
                 /** MAKE A TABLE???**/
                 position: static;
                 background-color: white;
@@ -100,7 +95,7 @@ body {margin:0;padding:0; overflow-x:; }
                     
                 }
                h1 {
-                    font-size: 5vmax;
+                    font-size: 3vmax;
                 }
                 
                 #logo {
@@ -131,21 +126,24 @@ body {margin:0;padding:0; overflow-x:; }
                  <img id="logo" src="https://github.com/sehrurban/sehrurban.github.io/blob/master/CarysMartinCeramics_Final%20Files/CarysMartinCeramics_Final%20Files/Logos/Web/CarysMartinCeramics_Logo_RGB.png?raw=true">    
         
         <div id="Insta">    
-            <script src="https://snapwidget.com/js/snapwidget.js"></script>
-            <iframe src="https://snapwidget.com/embed/397789" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%; height:100%;"></iframe>
+            <!-- SnapWidget -->
+<script src="https://snapwidget.com/js/snapwidget.js"></script>
+<iframe src="https://snapwidget.com/embed/397789" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%; height:100%;"></iframe>
         </div>
         </div>
         
         <div class="hover">
         <!-- <a name='about'>About</a> -->
-            <p>Carys Martin creates ceramics that range from functional pieces to quirky objects. 
-            </p>
+            <h1>Carys Martin creates ceramics that range from functional pieces to quirky objects. 
+            </h1>
             <p>
              After obtaining her Bachelor of Arts degree in 1996 she has spent the years exploring the creative processes and techniques. Whether hand built or wheel thrown, each piece has its own unique characteristics. It is these differences that make them interesting and keep your attention and curiosity. 
             She is inspired by the myriad options for surface design and finish. In her pieces you often see contrasts. The feel of the roughness of the clay contrasting with the smooth surface of the glaze. The earthy colouring of the natural clay against the iridescent magic of glaze layered upon glaze.
             </p>
         </div>
-        <img />
+        <div class="Image">
+        <img src=''/>
+        </div>
         <div class="below">
             <h1><a name="One Cup One Tree">One Cup One Tree</a></h1> 
             <p>Inspired by nature, and motivated by the need to make a difference, she has a series of ceramic travel cups where she donates a portion of each sale to the organisation One Tree Planted. Every year over a billion coffee cups are thrown out in Australia alone. By reusing these coffee cups you are not only helping to reduce this number, but with every cup purchased a tree will be planted by onetreeplanted.org One Tree Planted work with reforestation organisations around the world, helping local communities restore forests. Your coffee cup can help in so many positive ways. The trees planted help clean the air, provide access to clean water, restore habitat, provide jobs, health and remove carbon from the atmosphere.</p>
