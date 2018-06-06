@@ -1,6 +1,7 @@
 <html>
     <head>
         <link href="https://fonts.googleapis.com/css?family=Hind" rel="stylesheet">
+        <link href='https://github.com/sehrurban/sehrurban.github.io/blob/master/AEH.ttf' rel="stylesheet">
         <style>
             
 body {margin:0;padding:0; overflow-x:; }
@@ -18,11 +19,11 @@ body {margin:0;padding:0; overflow-x:; }
             #logo {
     padding-top: 1%;
     padding-bottom: 2%;
-    width: 37.5%; display: block; margin: 0 auto;
+    height: 45vh; display: block; margin: 0 auto;
             }
             #Insta {
     width: 95%;
-    height:100%;
+    height: 100%;
     top: 0; left: 0; bottom: 0; right: 0;
     position: inherit;
     margin: 0 auto;
@@ -30,8 +31,8 @@ body {margin:0;padding:0; overflow-x:; }
             }    
             h1 {
     font-size: 2.25vw;
-    color: #009cab;
-    font-family: sans-serif;
+    color: #006775;
+    font-family:sans-serif;
     font-variant:small-caps;
     font-weight: bolder;
     text-align: center;
@@ -40,7 +41,7 @@ body {margin:0;padding:0; overflow-x:; }
     font-size: 1.25vw;
     padding-left: 15%;
     padding-right: 15%;
-    font-family: Hind, sans-serif;
+    font-family: HInd, sans-serif;
     text-align: center;
     padding-top: -0.5%;
     padding-bottom: 1.5%;
@@ -60,56 +61,70 @@ body {margin:0;padding:0; overflow-x:; }
             .hover{
                 z-index: 2;
                 background-color: white ;
-                -webkit-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
-	            -moz-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
-                box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
-                position: static; 
+                -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+                -moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+                box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+                position: absolute;
                 padding-top: 1%;
                 padding-bottom: 1%;
             }
-            
+           
             .Image {
                 z-index: 1;
-                position: static;
-                background-color: white;
+                position: relative;
+                background-color: #01a0af;
+                width 100%;
+                height: auto;
+                padding-top: 22.5%;
                 
+            }
+            #card {
+                z-index: 1;
+                width: 70%;
+                display: block; margin: 0 auto;
+              
             }
             
             .below {
                 z-index: 2;
                 /** MAKE A TABLE???**/
-                position: static;
+                position: absolute;
                 background-color: white;
-                -webkit-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
-	            -moz-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
-	            box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+                -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+                -moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+                box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
                 padding-top: 1%;
                 padding-bottom: 1%;
              
                 
                     
             }
+           /** div {
+                border: 1px solid;
+                border-color: blue;
+            } **/
             
             @media (max-width:712px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
                 p {
                     font-size: 3vw;
                 }
-                
-                #Insta {
-                    
-                    
+                .Image {
+                    padding-top: 59%;
                 }
+                #card {
+                width: 100%;
+            }
                h1 {
                     font-size: 3vmax;
                 }
                 
                 #logo {
-                width: 90%;
+                height: 30vh;
                 padding-top: 2%;
                 padding-bottom: 4%;
                 }
                 .hover {
-                    margin-top: 20%;
+                    margin-top: -25vw;
                     
                 }
                 .below {                   
@@ -125,24 +140,30 @@ body {margin:0;padding:0; overflow-x:; }
         <div id="Insta">    
             <!-- SnapWidget -->
 <script src="https://snapwidget.com/js/snapwidget.js"></script>
-<iframe src="https://snapwidget.com/embed/397789" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow: hidden; width:100%; height:100%;"></iframe>
+<iframe src="https://snapwidget.com/embed/397789" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%; height:100%;"></iframe>
         </div>
         </div>
-        
+        <table>
+            <tr>
         <div class="hover">
             <h1><a name='about'>About</a></h1>
             <p>Carys Martin creates ceramics that range from functional pieces to quirky objects. After obtaining her Bachelor of Arts degree in 1996 she has spent the years exploring the creative processes and techniques. Whether hand built or wheel thrown, each piece has its own unique characteristics. It is these differences that make them interesting and keep your attention and curiosity. 
             She is inspired by the myriad options for surface design and finish. In her pieces you often see contrasts. The feel of the roughness of the clay contrasting with the smooth surface of the glaze. The earthy colouring of the natural clay against the iridescent magic of glaze layered upon glaze.
             </p>
         </div>
+            </tr>
+            <tr>
         <div class="Image">
-        <img src=''/>
+        <img id="card" src='https://github.com/sehrurban/sehrurban.github.io/blob/master/CMC0024_Carys%20Martin%20Ceramics+One%20Tree%20flyer_FA_Page_2.png?raw=true'/>
         </div>
+            </tr>
+            <tr>
         <div class="below">
             <h1><a name="One Cup One Tree">One Cup One Tree</a></h1> 
             <p>Inspired by nature, and motivated by the need to make a difference, she has a series of ceramic travel cups where she donates a portion of each sale to the organisation One Tree Planted. Every year over a billion coffee cups are thrown out in Australia alone. By reusing these coffee cups you are not only helping to reduce this number, but with every cup purchased a tree will be planted by onetreeplanted.org One Tree Planted work with reforestation organisations around the world, helping local communities restore forests. Your coffee cup can help in so many positive ways. The trees planted help clean the air, provide access to clean water, restore habitat, provide jobs, health and remove carbon from the atmosphere.</p>
-            
         </div>
+            </tr>
+        </table>
             
     </body>
 </html>
