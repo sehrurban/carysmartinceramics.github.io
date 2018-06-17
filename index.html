@@ -3,6 +3,7 @@
         <link href="https://fonts.googleapis.com/css?family=Hind" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Rokkitt" rel="stylesheet">
         <link href='https://github.com/sehrurban/sehrurban.github.io/blob/master/AEH.ttf' rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <style>
             
 body {margin:0;padding:0; overflow-x:; }
@@ -16,7 +17,39 @@ body {margin:0;padding:0; overflow-x:; }
     z-index: -1;
             }
            
+            .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
 
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
             #logo {
     padding-top: 1%;
     padding-bottom: 2%;
@@ -195,12 +228,30 @@ body {margin:0;padding:0; overflow-x:; }
         <title>Carys Martin Ceramics</title>
     </head>
     <body>
+            <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
+            </div>
+        <img id="menu" src='https://github.com/sehrurban/sehrurban.github.io/blob/master/menu.png?raw=true' onclick="openNav()">
+
+
+                <script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
         
-        
-       <div class="fillscreen">   
-                
+       <div class="fillscreen">  
+           
                  <img id="logo" src="https://github.com/sehrurban/sehrurban.github.io/blob/master/CarysMartinCeramics_Final%20Files/CarysMartinCeramics_Final%20Files/Logos/Web/CarysMartinCeramics_Logo_RGB.png?raw=true">    
-               <img id="menu" src='https://github.com/sehrurban/sehrurban.github.io/blob/master/menu.png?raw=true'>
            <div id="Insta">     
             <!-- SnapWidget -->
 <script src="https://snapwidget.com/js/snapwidget.js"></script>
@@ -239,3 +290,4 @@ body {margin:0;padding:0; overflow-x:; }
         
     </body>
 </html>
+
