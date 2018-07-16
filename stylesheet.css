@@ -121,7 +121,12 @@ body {margin:0;padding:0; overflow-x:; }
                 font-size: 36px;
                 margin-left: 50px;
             }
-      
+            
+            #button-container {
+            z-index: 5;
+            height: 7.5%;
+            width: 100%;
+            }
 
             #button {
                 background-color: rgba(255, 255, 255, 0.75);
@@ -132,7 +137,7 @@ body {margin:0;padding:0; overflow-x:; }
                 text-align: center;
                 font-size: 2.5em;
                 font-family: Hind;
-                z-index: 5;
+                height: 7.5%;
                 position: absolute;
                 left: 0; 
                 right: 0; 
@@ -141,13 +146,13 @@ body {margin:0;padding:0; overflow-x:; }
                 width: 300px; /* Need a specific value to work */
                 top: 65%;
                 font-weight: 600;
-                
                 -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
                 -moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
                 box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+                pointer-events: all;
             }
             
-            #mybutton:hover {
+            #button:hover {
                 transition-duration: 4000;
                 background-color: rgba(255, 255, 255, 0.95);        
                 transition: background-color 0.2s ease-in,
@@ -276,10 +281,10 @@ body {margin:0;padding:0; overflow-x:; }
                 opacity: 0.25;
             }
                 
-         /**   div {
+      /**      div {
                 border: 1px solid;
                 border-color: blue;
-            } **/
+            }  **/
             
             
             @media screen and (orientation: portrait)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
