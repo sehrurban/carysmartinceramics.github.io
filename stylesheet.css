@@ -125,7 +125,7 @@ body {margin:0;padding:0; overflow-x:; }
 /*** END ***/
 /*** SHOP NOW BUTTON CSS ***/
             #button {
-                background-color: rgba(255, 255, 255, 0.9);
+                background-color: rgba(255, 255, 255, 0.95);
                 border: 2px solid;
                 border-color:  rgba(255, 255, 255, 0.1);
                 border-radius: 5px;
