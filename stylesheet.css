@@ -8,7 +8,7 @@ body {margin:0;padding:0; overflow-x:; }
                 margin: 0;
                 z-index: -1;
             }
-
+/*** DOWN BUTTON ANIMATION CSS ***/
            @-moz-keyframes bounce {
                0%, 20%, 50%, 80%, 100% {
                 -moz-transform: translateY(0);
@@ -76,7 +76,8 @@ body {margin:0;padding:0; overflow-x:; }
                 -webkit-animation: bounce 2s infinite;
                 animation: bounce 2s infinite;
             }
-
+/*** END ***/
+/*** SIDE NAV BAR CSS ***/
              #menu {
                 width: 6vw;
                 position: absolute;
@@ -121,7 +122,8 @@ body {margin:0;padding:0; overflow-x:; }
                 font-size: 36px;
                 margin-left: 50px;
             }
-
+/*** END ***/
+/*** SHOP NOW BUTTON CSS ***/
             #button {
                 background-color: rgba(255, 255, 255, 0.75);
                 border: 2px solid;
@@ -131,6 +133,7 @@ body {margin:0;padding:0; overflow-x:; }
                 text-align: center;
                 font-size: 2.5em;
                 font-family: Hind;
+                vertical-align: middle;
                 position: absolute;
                 left: 0; 
                 right: 0; 
@@ -152,7 +155,7 @@ body {margin:0;padding:0; overflow-x:; }
                 transition: background-color 0.2s ease-in,
               color 0.2s ease-in;
             }
-           
+ /*** END CSS ***/          
             #logo {
                 padding-top: 1%;
                 padding-bottom: 2%;
@@ -166,30 +169,6 @@ body {margin:0;padding:0; overflow-x:; }
                 position: inherit;
                 margin: 0 auto;
                 z-index: 0;
-            }   
-
-            h1 {
-                font-size: 2.60vw;
-                color: #01a0af;
-                font-family: Hind, sans-serif;
-                font-weight: bolder;
-                text-align: center;
-                margin-top: 0%;
-                margin-bottom: 0%;
-            }
-
-            p {
-                font-size: 1.4vw;
-                padding-left: 12.5%;
-                padding-right: 12.5%;
-                font-family: Hind, sans-serif;
-                text-align: center;
-                margin-top: 0.5%;
-                margin-bottom: 0.75%;
-            }
-
-            a {
-                text-decoration: none;
             }  
             
             .float1 {
@@ -247,7 +226,7 @@ body {margin:0;padding:0; overflow-x:; }
                                   
             }
             
-            .icon {
+            .footericon {
                
                 width: 7%;
                 margin-top: 7.5%;
@@ -257,7 +236,32 @@ body {margin:0;padding:0; overflow-x:; }
                 margin-right: 1%;
             }
             
-            
+/*** TEXT CSS ***/
+
+            h1 {
+                font-size: 2.60vw;
+                color: #01a0af;
+                font-family: Hind, sans-serif;
+                font-weight: bolder;
+                text-align: center;
+                margin-top: 0%;
+                margin-bottom: 0%;
+            }
+
+            p {
+                font-size: 1.4vw;
+                padding-left: 12.5%;
+                padding-right: 12.5%;
+                font-family: Hind, sans-serif;
+                text-align: center;
+                margin-top: 0.5%;
+                margin-bottom: 0.75%;
+            }
+
+            a {
+                text-decoration: none;
+            }  
+
             h3 {
                 font-family: Rokkit, sans-serif;
                 font-weight: 500;
@@ -274,6 +278,14 @@ body {margin:0;padding:0; overflow-x:; }
                 font-variant: small-caps;
                 opacity: 0.25;
             }
+            h5 {
+                font-family: Hind, sans-serif;
+                font-weight: 400;
+                font-size: 0.5vw;
+                opacity: 0.25;
+            }
+
+/*** END ***/
                 
       /**      div {
                 border: 1px solid;
@@ -293,13 +305,9 @@ body {margin:0;padding:0; overflow-x:; }
                     width: 16vw;
                 }
                 
-                .Image {
-                    height: 100vw;
+                .cardcontainer {
+                    height: 97.5vw;
                     width: 100%; 
-                }
-                
-                #card {
-                    width: 100%;
                 }
                 
                 h1 {
@@ -315,7 +323,7 @@ body {margin:0;padding:0; overflow-x:; }
                     padding-bottom: 6%;
                 }
                 
-                .icon {
+                .footericon {
                     width: 27.5%;
                 }
                 
