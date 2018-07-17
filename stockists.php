@@ -59,10 +59,7 @@
                 padding: 16px 32px;
                 }
             
-            div {
-                border: 1px solid;
-            }
-            
+   
             @media screen and (orientation: portrait)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
             
                 .griditem {
@@ -99,27 +96,28 @@ function closeNav() {
            
            
         </div>       
-                <div class='gridcontainer'>
-               <div class="griditem" class='hover'> 
-                <a href='#'>
+          
+        <div id="list">
+<?php 
+echo "Hello World!";
+?>
+            <iframe width="100%" height="100%" scrolling=no frameborder=no src='http://carysmartinceramics.com/stockists.txt' style='border: 0; color:blue;' seamless></iframe>
+            
+            <p><?php echo file_get_contents('http://carysmartinceramics.com/stockists.txt'); ?></p>
+            
+        </div>
+
                 
-                    <img class="image" style='width: 100%;' src='https://github.com/sehrurban/sehrurban.github.io/blob/master/CarysMartinCeramics_Final%20Files/CarysMartinCeramics_Final%20Files/Logos/Web/Placeholder.png?raw=true'>
-                   <div class="middle">
-                    <div class="text">Stockist</div>
-                    </div>
-                </a>
-               </div>
-                
-           </div>
+        
         <div id='footer'>
            
-            <a href='https://www.instagram.com/carysmartinceramics/'> <div class='icon'>
+            <a href='https://www.instagram.com/carysmartinceramics/'> <div class='footericon'>
             <img style='width: 100%;' src="https://github.com/sehrurban/sehrurban.github.io/blob/master/if_Intsagram_194923.png?raw=true" />
                 </div> </a>
-            <a href='https://www.facebook.com/carysmartinceramics/'> <div class='icon'>
+            <a href='https://www.facebook.com/carysmartinceramics/'> <div class='footericon'>
             <img style='width: 100%;' src="https://github.com/sehrurban/sehrurban.github.io/blob/master/if_Facebook_194929.png?raw=true" />
                 </div> </a>            
-           <a href='mailto:carysmartin@me.com'> <div class='icon'>
+           <a href='mailto:carysmartin@me.com'> <div class='footericon'>
             <img style='width: 100%;' src="https://github.com/sehrurban/sehrurban.github.io/blob/master/if_Mail_194919.png?raw=true" />
                </div> </a>
            <h3>Carys Martin Ceramics</h3>
