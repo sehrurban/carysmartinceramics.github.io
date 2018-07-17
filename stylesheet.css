@@ -291,7 +291,18 @@ body {margin:0;padding:0; overflow-x:; }
                 border: 1px solid;
                 border-color: blue;
             }  **/
-            
+
+                #list {
+                height: 100%;
+                color: black;
+                padding-left: 15%;
+                padding-right: 15%;
+                
+                }
+                
+#text {
+    font-size: 1vw;
+}
             
             @media screen and (orientation: portrait)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
                 p {
