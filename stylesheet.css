@@ -239,7 +239,7 @@ body {margin:0;padding:0; overflow-x:; }
 /*** TEXT CSS ***/
 
             h1 {
-                font-size: 2.60vw;
+                font-size: 2.6vw;
                 color: #01a0af;
                 font-family: Hind, sans-serif;
                 font-weight: bolder;
@@ -248,14 +248,28 @@ body {margin:0;padding:0; overflow-x:; }
                 margin-bottom: 0%;
             }
 
-            p {
-                font-size: 1.4vw;
-                padding-left: 12.5%;
-                padding-right: 12.5%;
+            h2 {
+                font-size: 2.5vw;
+                color: #01a0af;
                 font-family: Hind, sans-serif;
+                font-weight: bolder;
                 text-align: center;
+                margin-top: 0%;
+                margin-bottom: 0%;
+            }
+            
+            #about {
                 margin-top: 0.5%;
                 margin-bottom: 0.75%;
+                padding-left: 12.5%;
+                padding-right: 12.5%;
+            }
+            p {
+                font-size: 1.4vw;
+                
+                font-family: Hind, sans-serif;
+                text-align: center;
+                
             }
 
             a {
@@ -298,6 +312,8 @@ body {margin:0;padding:0; overflow-x:; }
                 padding-right: 15%;
                 
                 }
+                
+
             
             @media screen and (orientation: portrait)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
                 p {
