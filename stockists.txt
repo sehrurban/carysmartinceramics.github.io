@@ -1,4 +1,4 @@
-QLD
+<h1>QLD</h1>
 <br><br>
 Coconut Coffee House - http://coconutcoffeehouse.com.au/
 <br><br>
@@ -15,14 +15,12 @@ Perch and Pantry - https://www.facebook.com/Perchandpantry/
 Village Creative - https://www.facebook.com/VillageCreative/
 <br><br>
 <br><br>
-<br><br>
-NSW
+<h1>NSW</h1>
 <br><br>
 Amelia Franklin Coffee Roasters https://www.facebook.com/ameliafranklincoffee/
 <br><br>
 <br><br>
-<br><br>
-VIC
+<h1>VIC</h1>
 <br><br>
 Lulu Café and Gallery - http://www.lulucafegallery.com.au/
 <br><br>
