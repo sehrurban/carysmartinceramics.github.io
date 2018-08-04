@@ -62,7 +62,7 @@ body {margin:0;padding:0; overflow-x:; }
 
             .arrow {
                 position: absolute;
-                bottom: 2.5%;
+                bottom: 3%;
                 left: 50%;
                 margin-left: -20px;
                 width: 40px;
@@ -140,7 +140,7 @@ body {margin:0;padding:0; overflow-x:; }
                 margin-left: auto; 
                 margin-right: auto; 
                 width: 300px; /* Need a specific value to work */
-                top: 72.5%;
+                top: 70%;
                 font-weight: 600;
                 -webkit-box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.75);
                 -moz-box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.75);
@@ -162,7 +162,7 @@ body {margin:0;padding:0; overflow-x:; }
                 width: 25%; display: block; margin: 0 auto;
             }
                    
-            #Insta {
+            #instagram {
                 width: 90%;
                 height: 100%;
                 top: 0; left: 0; bottom: 0; right: 0;
@@ -171,16 +171,16 @@ body {margin:0;padding:0; overflow-x:; }
                 z-index: 0;
             }  
             
-            .float1 {
+            .floater1 {
                 z-index: 2;
                 background-color: white ;
                 -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
                 -moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
                 box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
                 /**    position: absolute; **/
-                padding-top: 1%;
-                padding-bottom: 1%;
-                margin-top: -7.5%; 
+                padding-top: 60px;
+                padding-bottom: 60px;
+                margin-top: -7.5%;
                 width: 100%;
             }
            
@@ -203,14 +203,15 @@ body {margin:0;padding:0; overflow-x:; }
                 
             }
             
-            .float2 {
+            .floater2 {
                 z-index: 2;
                 background-color: white;
                 -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
                 -moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
                 box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
-                padding-top: 1%;
-                padding-bottom: 1%;    
+                padding-top: 60px;
+                padding-bottom: 60px;
+            
             }             
 
             #footer {
@@ -227,7 +228,6 @@ body {margin:0;padding:0; overflow-x:; }
             }
             
             .footericon {
-               
                 width: 7%;
                 margin-top: 7.5%;
                 margin-bottom: 5%;
@@ -246,6 +246,7 @@ body {margin:0;padding:0; overflow-x:; }
                 text-align: center;
                 margin-top: 0%;
                 margin-bottom: 0%;
+                padding-bottom: 0%;
             }
 
             h2 {
@@ -257,14 +258,11 @@ body {margin:0;padding:0; overflow-x:; }
                 margin-top: 0%;
                 margin-bottom: 0%;
             }
-            
-            #about {
-                               
-            }
+
             p {
                 font-size: 1.4vw;
                 font-family: Hind, sans-serif;
-                text-align: center;
+                text-align: justify;
                 margin-top: 0.5%;
                 margin-bottom: 0.75%;
                 padding-left: 12.5%;
@@ -300,17 +298,13 @@ body {margin:0;padding:0; overflow-x:; }
 
 /*** END ***/
                 
-      /**      div {
-                border: 1px solid;
-                border-color: blue;
-            }  **/
 
-                #list {
+            #list {
                 color: black;
                 padding-left: 15%;
                 padding-right: 15%;
                 
-                }
+            }
                 
 
             
@@ -320,6 +314,9 @@ body {margin:0;padding:0; overflow-x:; }
                     padding-left: 10%;
                     padding-right: 10%;
                     margin-top: 0%;
+                }
+                #instagram {
+                    width: 100%;
                 }
                 
                 #menu {
