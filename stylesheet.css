@@ -315,6 +315,15 @@ body {margin:0;padding:0; overflow-x:; }
                     padding-right: 10%;
                     margin-top: 0%;
                 }
+                .floater1 {
+                    padding-top: 10%;
+                    padding-bottom: 10%;
+                    margin-top: -15%;
+                }
+                .floater2 {
+                    padding-top: 10%;
+                    padding-bottom: 10%;
+                }
                 #instagram {
                     width: 100%;
                 }
@@ -324,8 +333,7 @@ body {margin:0;padding:0; overflow-x:; }
                 }
                 
                 .cardcontainer {
-                    height: 97.5vw;
-                    width: 100%; 
+                    height: 96.5vw;
                 }
                 
                 h1 {
