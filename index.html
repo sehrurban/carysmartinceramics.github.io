@@ -1,16 +1,17 @@
+<!DOCTYPE html>
 <html>
     <head>
+        <title>Carys Martin Ceramics</title>
         <link href="https://fonts.googleapis.com/css?family=Hind" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Rokkitt" rel="stylesheet">
         <link href='https://github.com/rioleo/CS147/blob/master/week6/fonts/avenir/Avenir%20LT%2085%20Heavy.ttf' rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="stylesheet.css">
-        <title>Carys Martin Ceramics</title> 
-     
-<!-- SCROLL EFFECT -->      
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script>
-$(document).ready(function(){
+         
+        <!-- SCROLL EFFECT JS -->      
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+    $(document).ready(function(){
   // Add smooth scrolling to all links
   $("a").on('click', function(event) {
     // Make sure this.hash has a value before overriding default behavior
@@ -31,71 +32,80 @@ $(document).ready(function(){
     } // End if
   });
 });
-</script>     
-     
-    </head>
-    <body>
-        
-        <button id='button'>SHOP NOW</button>
-        
-        <script>
-                document.getElementById("button").onclick = function () {
+</script> 
+        <!-- BUTTON JS -->       
+        <script> 
+    document.getElementById("button").onclick = function () {
                 location.href = "https://www.etsy.com/au/shop/CarysMartinCeramics";
                 };
-        </script> 
-        
-        <div class='top'><a href='#about'><div class="arrow bounce"></div></a>
-    
+</script> 
+        <!-- SCROLL JS --> 
         <script>
         $(window).scroll(function(){
     $(".top").css("opacity", 1 - $(window).scrollTop() / 500);
   });
             
         </script>
+    </head>
+    
+    <body>
+        <button id='button'>SHOP NOW</button>             
+        <div class='arrowcontainer'>
+            <a href='#about'>
+                <div class="arrow bounce">
+                </div>
+            </a>
+        </div>
+        <div class="fillscreen"> 
+            
+            <img id="logo" src="https://github.com/sehrurban/sehrurban.github.io/blob/master/CarysMartinCeramics_Final%20Files/CarysMartinCeramics_Final%20Files/Logos/Web/CarysMartinCeramics_Logo_RGB.png?raw=true" alt='LOGO'>  
+            <!-- Instagram -->
+            
+            <div id="instagram">    
+                <script src="https://snapwidget.com/js/snapwidget.js"></script>
+                <iframe src="https://snapwidget.com/embed/397789" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%; height:100%;"></iframe>
+            </div>
             
         </div>
         
-       <div class="fillscreen">  
-           
-                 <img id="logo" src="https://github.com/sehrurban/sehrurban.github.io/blob/master/CarysMartinCeramics_Final%20Files/CarysMartinCeramics_Final%20Files/Logos/Web/CarysMartinCeramics_Logo_RGB.png?raw=true" alt='LOGO'>   
-           <div id="Insta">    
-               
-            <!-- SnapWidget -->
-<script src="https://snapwidget.com/js/snapwidget.js"></script>
-<iframe src="https://snapwidget.com/embed/397789" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%; height:100%;"></iframe>
-        </div>
-        </div>
-        <div class="float1" id='about'>
+        <div class="floater1" id='about'>
+            
             <h1>About</h1>
             <p>Carys Martin creates ceramics that range from functional pieces to quirky objects. After obtaining her Bachelor of Arts degree in 1996 she has spent the years exploring the creative processes and techniques. Whether hand built or wheel thrown, each piece has its own unique characteristics. It is these differences that make them interesting and keep your attention and curiosity. 
             She is inspired by the myriad options for surface design and finish. In her pieces you often see contrasts. The feel of the roughness of the clay contrasting with the smooth surface of the glaze. The earthy colouring of the natural clay against the iridescent magic of glaze layered upon glaze.
             </p>
+            
         </div>
-        <div class="cardcontainer">
-        </div>  
-        <div class="float2">
+        
+        <div class="cardcontainer"></div>  
+        
+        <div class="floater2">
+            
             <h1>One Cup One Tree</h1> 
             <p>Inspired by nature, and motivated by the need to make a difference, she has a series of ceramic travel cups where she donates a portion of each sale to the organisation One Tree Planted. Every year over a billion coffee cups are thrown out in Australia alone. By reusing these coffee cups you are not only helping to reduce this number, but with every cup purchased a tree will be planted by onetreeplanted.org One Tree Planted work with reforestation organisations around the world, helping local communities restore forests. Your coffee cup can help in so many positive ways. The trees planted help clean the air, provide access to clean water, restore habitat, provide jobs, health and remove carbon from the atmosphere.</p>
+            
         </div>    
        
-   
         <div id='footer'>
            
-            <a href='https://www.instagram.com/carysmartinceramics/'> <div class='footericon'>
-            <img style='width: 100%;' src="https://github.com/sehrurban/sehrurban.github.io/blob/master/if_Intsagram_194923.png?raw=true" />
-                </div> </a>
-            <a href='https://www.facebook.com/carysmartinceramics/'> <div class='footericon'>
-            <img style='width: 100%;' src="https://github.com/sehrurban/sehrurban.github.io/blob/master/if_Facebook_194929.png?raw=true" />
-                </div> </a>            
-           <a href='mailto:carysmartin@me.com'> <div class='footericon'>
-            <img style='width: 100%;' src="https://github.com/sehrurban/sehrurban.github.io/blob/master/if_Mail_194919.png?raw=true" />
-               </div> </a>
-           <h3>Carys Martin Ceramics</h3>
-         <!--  <h4>Designed and Developed by ... Designs</h4> -->
+            <a href='https://www.instagram.com/carysmartinceramics/'>
+                <div class='footericon'>
+                    <img style='width: 100%;' src="https://github.com/sehrurban/sehrurban.github.io/blob/master/if_Intsagram_194923.png?raw=true" />
+                </div> 
+            </a>
+            <a href='https://www.facebook.com/carysmartinceramics/'>
+                <div class='footericon'>
+                    <img style='width: 100%;' src="https://github.com/sehrurban/sehrurban.github.io/blob/master/if_Facebook_194929.png?raw=true" />
+                </div> 
+            </a>            
+           <a href='mailto:carysmartin@me.com'> 
+               <div class='footericon'>
+                    <img style='width: 100%;' src="https://github.com/sehrurban/sehrurban.github.io/blob/master/if_Mail_194919.png?raw=true" />
+               </div> 
+            </a>
+            <h3>Carys Martin Ceramics</h3>
+            <!--  <h4>Designed and Developed by ... Designs</h4> -->
             <h5>Icons from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></h5>
         </div>
-      
-
-        
     </body>
 </html>
